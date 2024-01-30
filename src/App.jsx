@@ -1,13 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import { App } from './App.css'
+import './App.css'
 
-import { Header } from './components/Header'
-import { Home } from './components/Home'
-import { About } from './components/About'
-import { Contact } from './components/Contact'
-import { CurrentContact } from './components/CurrentContact'
-import { NotFound } from './components/NotFound'
-import { Footer } from './components/Footer'
+import { Header } from './components/Header/Header'
+import { Home } from './components/Home/Home'
+import { About } from './components/About/About'
+import { Contact } from './components/Contact/Contact'
+import { CurrentContact } from './components/CurrentContact/CurrentContact'
+import { NotFound } from './components/NotFound/NotFound'
+import { Footer } from './components/Footer/Footer'
 
 function App() {
   return (
